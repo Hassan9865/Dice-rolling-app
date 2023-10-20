@@ -46,8 +46,8 @@ class _DiceAppState extends State<DiceApp> {
           const SizedBox(height: 60),
           ElevatedButton(
             onPressed: () async {
-              await player.setAsset('assets/audios/rolling-dice.mp3');
-              player.play();
+              // await player.setAsset('assets/audios/rolling-dice.mp3');
+              // player.play();
 
               Timer.periodic(const Duration(milliseconds: 80), (timer) {
                 counter++;

@@ -3,29 +3,26 @@ import 'package:dice_rolling_app/dice.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-class SplashScreen extends StatefulWidget {
+class SplashPage extends StatefulWidget {
   @override
-  _SplashScreenState createState() => _SplashScreenState();
+  _SplashPageState createState() => _SplashPageState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
     Timer(
-        Duration(seconds: 3),
-        () => Navigator.of(context).pushReplacement(
-            MaterialPageRoute(builder: (BuildContext context) => DiceApp())));
+        Duration(seconds: 6),
+        () => Navigator.pushReplacement(
+            context, MaterialPageRoute(builder: (context) => DiceApp())));
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white,
-      body: Center(
-        child: Lottie.network(
-            "https://lottie.host/7e418b35-4ba1-48d6-a016-99a29fff6470/FbaVULq5YS.json"),
-      ),
+    return Center(
+      child: Lottie.network(
+          "https://lottie.host/5dc48144-4907-438b-b64e-a832a23c738a/k7xIAf9FYx.json"),
     );
   }
 }
