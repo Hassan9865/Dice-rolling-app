@@ -13,7 +13,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     super.initState();
     Timer(
-        Duration(seconds: 6),
+        Duration(seconds: 10),
         () => Navigator.pushReplacement(
             context, MaterialPageRoute(builder: (context) => DiceApp())));
   }
