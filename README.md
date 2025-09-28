@@ -18,6 +18,12 @@ A minimal and elegant Flutter-based **Tic Tac Toe** game designed with engaging 
 
 ---
 
+## 📱 App Vedio
+
+https://github.com/user-attachments/assets/510487fd-fab1-40f5-ac3a-d3879adef7f2
+
+---
+
 ## 📂 Folder Structure
 
 tic_tac_toe_game/ ├── android/ ├── assets/ │ ├── animations/ │ ├── audio/ │ └── icons/ ├── ios/ ├── lib/ │ ├── core/ │ ├── screens/ │ └── widgets/ ├── pubspec.yaml └── README.md
@@ -45,10 +51,6 @@ Edit
 - ✅ Free Support for Setup Issues
 
 ---
-
-## 📱 App Vedio
-
-https://github.com/user-attachments/assets/510487fd-fab1-40f5-ac3a-d3879adef7f2
 
 ## 🚀 Getting Started
 
@@ -94,3 +96,4 @@ This is a **local single-player game**. Online or multiplayer support is not inc
 
 ## 👨‍💻 Author
 Developed by Syed Hassan Raza
+
